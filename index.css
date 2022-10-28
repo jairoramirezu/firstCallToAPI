@@ -1,0 +1,29 @@
+body {
+  background-color: #272C34;
+  box-sizing: border-box;
+  color: #FFF;
+  font-family: sans-serif;
+}
+
+.main-div {
+align-items: center;
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: center;
+width: 100%;
+}
+
+.getInfo {
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 20px;
+  height: 6%;
+  margin: 20px;
+  width: 10%;
+}
+
+.approved, .disapproved {
+  font-size: 20px;
+}
