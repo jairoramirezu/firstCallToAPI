@@ -4,7 +4,7 @@ const numDis = document.querySelector(".numDis");
 
 const getInfo = async () => {
   try{
-    let result = await axios("daa.txt");
+    let result = await axios("data.txt");
     result = result.data;
     numApp.innerHTML = result.approved;
     numDis.innerHTML = result.disapproved;
